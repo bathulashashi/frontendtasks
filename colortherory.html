@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+
+body {
+  background: #eee;
+  font-family: serif;
+  text-align: center;
+}
+
+/* heading */
+h1 {
+  margin: 20px;
+}
+
+/* container */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* row */
+.row {
+  margin: 20px 0;
+}
+
+/* box */
+.box {
+  width: 150px;
+  height: 180px;
+  display: inline-block;
+
+  margin: 10px;              /* OUTSIDE SPACE */
+  border: 2px solid black;   /* BORDER */
+  padding: 10px;             /* INSIDE SPACE */
+}
+
+/* circle */
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+/* colors */
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+.lightgreen { background: #7aa24d; }
+.purple { background: purple; }
+.pink { background: #8b5a8c; }
+
+</style>
+</head>
+<body>
+
+<h1>Color theory</h1>
+
+<div class="container">
+
+  <div class="row">
+    <div class="box">
+      <h3>colorname</h3>
+      <div class="circle red"></div>
+    </div>
+
+    <div class="box">
+      <h3>hexa</h3>
+      <div class="circle blue"></div>
+    </div>
+
+    <div class="box">
+      <h3>rgb</h3>
+      <div class="circle green"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="box">
+      <h3>rgba</h3>
+      <div class="circle lightgreen"></div>
+    </div>
+
+    <div class="box">
+      <h3>hsl</h3>
+      <div class="circle purple"></div>
+    </div>
+
+    <div class="box">
+      <h3>hsla</h3>
+      <div class="circle pink"></div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
