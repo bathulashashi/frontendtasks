@@ -5,66 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-.container {
-  display: flex;
-  gap: 10px;
-}
+        .cards{
+            width: 400px;
+            height:500px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
 
-.card {
-  width: 150px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-.highlight {
-  border: 2px solid orange;
-  background: #fff3e0;
-}
-</style>
+        }
+        .cards:hover{
+            background-color: aqua;
+        }
+        .container{
+            display:flex;
+            justify-content: space-between;
+        }
+        
+    </style>
 </head>
 <body>
-
-<body>
-
-<div class="container">
-
-  <div class="card">
-    <img src="https://picsum.photos/100?1"><br>
-    <h4>Card 1</h4>
-    <p>Desc</p>
-    <button>Click</button>
-  </div>
-
-  <div class="card">
-    <img src="https://picsum.photos/100?2"><br>
-    <h4>Card 2</h4>
-    <p>Desc</p>
-    <button>Click</button>
-  </div>
-
-  <div class="card highlight">
-    <img src="https://picsum.photos/100?3"><br>
-    <h4>Card 3</h4>
-    <p>Highlight</p>
-    <button>Click</button>
-  </div>
-
-  <div class="card">
-    <img src="https://picsum.photos/100?4"><br>
-    <h4>Card 4</h4>
-    <p>Desc</p>
-    <button>Click</button>
-  </div>
-
-  <div class="card">
-    <img src="https://picsum.photos/100?5"><br>
-    <h4>Card 5</h4>
-    <p>Desc</p>
-    <button>Click</button>
-  </div>
-
-</div>
-
+    <div class="container">
+        <div class="cards"><h1>card1</h1></div>
+        <div class="cards"><h1>cards2</h1></div>
+        <div class="cards"><h1>cards3</h1></div>
+    </div>
 </body>
 </html>
